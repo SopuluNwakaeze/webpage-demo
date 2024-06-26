@@ -87,5 +87,23 @@ a.header-item{
     width:100%;
 }
 
+.master-div-2-images{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.img-div-2{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-p{
+    text-align: center;
+    color: yellowgreen;
+}
+
 
 
