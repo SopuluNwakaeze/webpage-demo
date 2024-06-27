@@ -2,11 +2,13 @@ h1{
     color: blue;
 }
 
-.master-div-1{
-    width:100%;
-    height:10%;
+.master-div-1{ 
     background-color: #1F2937;
     padding-bottom:0.1px;
+    /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    height: 30%; */
 }
 
 .header-box{
@@ -47,7 +49,7 @@ a.header-item{
 }
 
 .img-div{
-    flex:1;
+    flex:1; /*LOOK AT THIS AGAIN*************** */
     
 }
 
@@ -85,10 +87,15 @@ a.header-item{
 
 .img-item{
     width:100%;
+    /* min-height: 50px; */
+
 }
-.maser-div-2{
-    width:100%;
-}
+/* .maser-div-2{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis:auto;
+    height: 30%;
+} */
 
 .master-div-2-images-p{
     display: flex;
@@ -128,4 +135,42 @@ a.header-item{
 
 .header-div, .master-div-2-p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.master-div-3{
+    background-color: #E5E7EB;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    height: 100%;
+    
+}
+
+.webpage{
+    display: flex;
+    flex-direction: column;
+}
+
+.contents-div{
+    display:flex;
+    flex-direction: column;
+    padding: 5%;
+    /* align-items: end; */
+
+}
+
+.quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sign-off{
+    margin-left:auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+}
+
+.strong-p{
+    align-self: flex-end;
 }
